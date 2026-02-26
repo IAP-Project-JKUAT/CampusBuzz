@@ -1,0 +1,47 @@
+# IDE - JetBrains
+.idea/
+
+# PHP - Composer
+/vendor/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment and Configuration (if contains sensitive data)
+config.php
+.env
+
+# Temporary files
+*.tmp
+*.temp
+# IDE and Editor folders
+/.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+
+# Environment variables (if you ever use them)
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies (if added later)
+/node_modules/
+# Database config
+/includes/db.php
